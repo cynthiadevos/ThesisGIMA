@@ -7,7 +7,7 @@ GROUP BY key
 ORDER BY stoplicht DESC
 
 
--- Join the number of accidents to the existing network
+-- Join the number of traffic lights to the existing network
 
 SELECT n.*, l.stoplicht as a_vrklicht
 INTO network3
